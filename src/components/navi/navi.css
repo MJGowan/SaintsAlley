@@ -1,4 +1,26 @@
-#navi .img{
+#navi .img {
     z-index: 2;
     width: 100vw;
+}
+
+.btns {
+    display: flex;
+    position: absolute;
+    top: 2.5%;
+    right: 250px;
+}
+
+.conBtn {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0;
+}
+
+.shopBtn {
+    color: black;
+    background-color: whitesmoke;
+    border-color: black;
+    border-radius: 0;
+    margin-left: 90px;
 }
