@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Special+Elite&display=swap');
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(23, 22, 22);
+  color: white;
+}
+
+.rubik{
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.elite{
+  font-family: 'Special Elite', cursive;
+}
