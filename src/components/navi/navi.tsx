@@ -12,10 +12,10 @@ export default function Navi() {
       <Row className='btns elite'>
         <Col></Col>
         <Col className='col-1'>
-          <Button className='conBtn'>Contact</Button>
+          <Button className='conBtn'>CONTACT</Button>
         </Col>
         <Col className='col-1'>
-          <Button className='shopBtn'>Shop</Button>
+          <Button className='shopBtn'>SHOP</Button>
         </Col>
       </Row>
     </div>
