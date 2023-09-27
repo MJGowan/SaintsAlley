@@ -1,0 +1,27 @@
+#contact{
+    padding-top: 245px;
+    color: white;
+}
+.title{
+    font-size: 30px;
+}
+.icon{
+    max-width: 50px;
+    margin-top: -10px;
+}
+.icon1{
+    max-height: 50px;
+}
+.icon2{
+    max-height:40px;
+}
+.icon3{
+    max-height: 45px;
+}
+.txt{
+    font-size: 20px;
+}
+.filler{
+    max-height: 425px;
+    width: auto;
+}
