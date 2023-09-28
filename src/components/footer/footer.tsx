@@ -13,11 +13,13 @@ export default function footer() {
           <Col> <p className='elite d-flex justify-content-end'>872 W. Kettleman Lane, Lodi CA</p></Col>
         </Row>
         <Row>
-        <Col>
+          <Col>
             <p className='elite'>Privacy</p>
           </Col>
           <Col>
-          <p className='elite d-flex justify-content-end'>@saintsalleyrecords</p>
+            <a href='https://www.mjgowan.dev' className='devLink'>
+              <p className='elite d-flex justify-content-end'>Developed by MJGowan</p>
+            </a>
           </Col>
         </Row>
       </Container>

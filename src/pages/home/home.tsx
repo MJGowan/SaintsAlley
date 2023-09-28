@@ -1,12 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-export default function home() {
+export default function Home() {
   const record = require('../../assets/record.png');
   const tape = require('../../assets/tape.png');
   const logo = require('../../assets/largelogo.png');
+
+  let navigate = useNavigate();
+
+  const handleAbt = () => {
+    navigate('/aboutme')
+  }
+
   return (
     <div id='home'>
       <img src={record} className='record' />
@@ -27,7 +35,7 @@ export default function home() {
         </Row>
         <Row className='mb-5'>
           <Col>
-            <button className='elite aboutBtn'>ABOUT US</button>
+            <button className='elite aboutBtn' onClick={handleAbt}>ABOUT US</button>
           </Col>
         </Row>
         <Row className='paperRow mt-5 mb-5'>

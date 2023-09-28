@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navi from './components/navi/navi';
 import Home from './pages/home/home';
@@ -9,13 +10,19 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Navi />
-      {/* <Home/> */}
-      {/* <About/> */}
-    <Contact/>
-      <Footer/>
-    </div>
+
+
+
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/aboutme' element={<About/>} />
+        <Route path='/contacts' element={<Contact/>} />
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
   );
 }
 
