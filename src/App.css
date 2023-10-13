@@ -13,3 +13,37 @@ body {
 .elite{
   font-family: 'Special Elite', cursive;
 }
+
+@media (max-width:576px){
+  p{
+    font-size: small;
+  }
+}
+
+@media (min-width:576px) and (max-width:768px){
+  p{
+    font-size: small;
+  }
+}
+
+@media (min-width:768px) and (max-width:992){
+
+}
+
+@media (min-width:992px) and (max-width:1000px){
+
+}
+
+@media (min-width:1000px) and (max-width:1200px){
+
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+
+}
+
+@media (min-width:1400px){
+  p{
+    font-size: large;
+  }
+}

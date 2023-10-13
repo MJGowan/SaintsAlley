@@ -13,8 +13,6 @@ function App() {
     <BrowserRouter>
       <Navi />
 
-
-
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/aboutme' element={<About/>} />

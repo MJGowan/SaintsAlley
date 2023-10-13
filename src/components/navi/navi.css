@@ -5,10 +5,10 @@
 #navi .img {
     z-index: 2;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .btns {
-    display: flex;
     position: absolute;
     top: 2.5%;
 }
@@ -19,7 +19,6 @@
     border-color: black;
     border-radius: 0;
     padding: 5px;
-    
 }
 
 .shopBtn {
@@ -27,18 +26,90 @@
     background-color: whitesmoke;
     border-color: black;
     border-radius: 0;
-    margin-left: 40px;
     padding: 5px;
-    
 }
 
-.homeBtn{
-    margin-left: 80px;
+.homeBtn {
+    margin-left: 85px;
     margin-top: -5px;
-    position: absolute;
-    width: 300px;
+    width: 22vw;
     height: 133px;
     border-radius: 60px;
-    background-color: transparent;
-    border-color: transparent;
+    background-color: rgba(255, 166, 0, 0.546);
+    border-color: rgba(255, 166, 0, 0.48);
 }
+
+
+@media (max-width: 576px) {
+    #navi .img{
+        width: 100vw;
+    }
+    .btns {
+        font-size: x-small;
+    }
+
+    .homeBtn {
+        height: 45px;
+        margin-left: 35px;
+    }
+
+    .conBtn {
+        padding: 1px;
+    }
+
+    .shopBtn {
+        padding: 1px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .btns {
+        font-size: small;
+    }
+
+    .homeBtn {
+        height: 65px;
+        margin-left: 45px;
+    }
+
+    .conBtn {
+        padding: 3px;
+    }
+
+    .shopBtn {
+        padding: 3px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .btns {
+        font-size: small;
+    }
+
+    .homeBtn {
+        height: 90px;
+        margin-left: 55px;
+    }
+
+    .conBtn {
+        padding: 5px;
+    }
+
+    .shopBtn {
+        padding: 5px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1212px) {
+    .homeBtn {
+        height: 110px;
+        margin-left: 70px;
+    }
+}
+
+@media (min-width:1213px) and (max-width:1400px) {}
+
+@media (min-width:1401px) {}

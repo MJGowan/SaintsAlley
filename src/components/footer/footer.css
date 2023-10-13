@@ -1,8 +1,33 @@
-#footer{
-    padding-top: 20px;
-    font-size: larger;
+#footer {
+    font-size: medium;
+    padding: 20px;
 }
-.devLink{
+
+.devLink {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width:1000px) {
+
+}
+
+@media (min-width:1001px) and (max-width:1200px) {
+
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+
+}
+
+@media (min-width:1401px) {
+
 }

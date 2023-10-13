@@ -10,7 +10,9 @@ export default function footer() {
           <Col>
             <p className='elite'>2022 COPYRIGHT © SAINTS ALLEY RECORDS</p>
           </Col>
-          <Col> <p className='elite d-flex justify-content-end'>872 W. Kettleman Lane, Lodi CA</p></Col>
+          <Col>
+          <p className='elite d-flex justify-content-end'>872 W. Kettleman Lane, Lodi CA</p>
+          </Col>
         </Row>
         <Row>
           <Col>

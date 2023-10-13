@@ -17,22 +17,20 @@ export default function Navi() {
     navigate('/');
   }
 
-
   return (
     <div id='navi'>
       <img src={n} className='img' />
-      
-      <Row className='btns elite'>
-        <Col className='col-6 logo'>
-          <button className='homeBtn' onClick={handleHome}></button>
-        </Col>
-        <Col className='' style={{width: '1100px'}}></Col>
-        <Col className='col-1'>
-          <button className='conBtn' onClick={handleCon}>CONTACT</button>
-        </Col>
-        <Col className='col-1'>
-          <button className='shopBtn' onClick={handleShop}>SHOP</button>
-        </Col>
+      <Row className='elite'>
+        <button className='btns homeBtn' onClick={handleHome}></button>
+        <Row className='btns'>
+          <Col></Col>
+          <Col className='col-md-1 col-2'>
+            <button className='conBtn' onClick={handleCon}>CONTACT</button>
+          </Col>
+          <Col className='col-md-1 col-1'>
+            <button className='shopBtn' onClick={handleShop}>SHOP</button>
+          </Col>
+        </Row>
       </Row>
     </div>
   )
