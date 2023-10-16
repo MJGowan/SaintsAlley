@@ -26,19 +26,19 @@ export default function Home() {
             <h2 className='rubik' style={{ color: 'goldenrod' }}>Turned Brick & Mortar</h2>
           </Col>
         </Row>
-        <Row className='mt-5 mb-5 tapeRow'>
-          <Col className='col-8 d-flex justify-content-center'>
+        <Row className='mt-4 mb-4 tapeRow'>
+          <Col className='col-8 col-xs-10 d-flex justify-content-center'>
             <img src={tape} className='tape' />
             <p className='elite tapetxt'>Located in Wildwood Skate Shop</p>
             <p className='elite tapetxt2'>872 W. Kettleman Lane, Lodi CA</p>
           </Col>
         </Row>
-        <Row className='mb-5'>
+        <Row className='mb-4'>
           <Col>
             <button className='elite aboutBtn' onClick={handleAbt}>ABOUT US</button>
           </Col>
         </Row>
-        <Row className='paperRow mt-5 mb-5'>
+        <Row className='paperRow mt-4 mb-5'>
           <Container className='paper'>
             <Row>
               <Col className='col-5'>

@@ -19,7 +19,7 @@ export default function footer() {
             <p className='elite'>Privacy</p>
           </Col>
           <Col>
-            <a href='https://www.mjgowan.dev' className='devLink'>
+            <a href='https://www.mjgowan.dev' target='_blank' rel="noreferrer" className='devLink'>
               <p className='elite d-flex justify-content-end'>Developed by MJGowan</p>
             </a>
           </Col>
