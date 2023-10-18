@@ -27,7 +27,7 @@
 
 .tapetxt {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .tapetxt2 {
@@ -35,10 +35,6 @@
     margin-top: 130px;
 }
 
-.paperRow {
-    display: flex;
-    justify-content: center;
-}
 
 .aboutBtn {
     color: black;
@@ -49,23 +45,29 @@
     padding: 10px;
 }
 
-.paper {
-    width: 90%;
-    margin-top: 50px;
-    background-image: url('../../assets/paper.png');
-    color: black;
+.paperRow {
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    width: 75%;
+    width: 70%;
     display: flex;
     margin-right: auto;
     margin-left: auto;
 }
 
-.txtend {
-    text-align: end;
-    padding-right: 25px;
+.paper {
+    width: 75%;
+    margin-top: 50px;
+    background-image: url('../../assets/paper.png');
+    color: black;
+    font-size: 2px;
+    text-decoration: none;
+}
+
+.papertxt {
+    margin-top: 50px;
 }
 
 
@@ -78,23 +80,63 @@
         margin-top: 45px;
         max-width: 100%;
     }
-    
+
     .tapetxt {
         margin-top: 65px;
     }
-    
+
     .tapetxt2 {
         margin-top: 85px;
     }
+
+    .aboutBtn {
+        padding: 6px;
+        font-size: 13px;
+    }
+    .paper {
+        width: 90%;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .logo {
+        width:110px;
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .papertxt {
+        margin-top: 20px;
+    }
 }
 
-@media (min-width:576px) and (max-width:768px) {    
+@media (min-width:576px) and (max-width:768px) {
     .tapetxt {
         margin-top: 75px;
     }
-    
+
     .tapetxt2 {
         margin-top: 95px;
+    }
+
+    .aboutBtn {
+        padding: 8px !important;
+        font-size: 13px;
+        margin-left: 45px;
+        padding: 10px;
+    }
+
+    .paper {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 75%;
+    }
+    .papertxt {
+        margin-top: 40px;
     }
 }
 
@@ -102,50 +144,91 @@
     .tapeRow {
         font-size: 18px;
     }
-    
+
     .tapetxt {
         margin-top: 80px;
     }
-    
+
     .tapetxt2 {
         margin-top: 110px;
     }
+
+    .aboutBtn {
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .paper {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    .logo {
+        width: 75%;
+    }
+    
 }
 
 @media (min-width:1000px) and (max-width:1200px) {
+    .paper {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 65%;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    .tapeRow{
+        font-size: 23px;
+    }
+    .tapetxt {
+        margin-top: 95px;
+    }
+
+    .tapetxt2 {
+        margin-top: 135px;
+    }
+    .paper{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1400px) {
+    .record {
+        max-width: 55%;
+        height: auto;
+        right: 0;
+        top: 75px;
+    }
+    .tape {
+        margin-top: 55px;
+        max-width: 80%;
+    }
+
+    .tapetxt {
+        margin-top: 100px;
+    }
+
+    .tapetxt2 {
+        margin-top: 140px;
+    }
 
     .paperRow {
         display: flex;
         justify-content: center;
     }
 
-    .aboutBtn {
-        color: black;
-        background-color: whitesmoke;
-        border-color: black;
-        border-radius: 0;
-        margin-left: 45px;
-        padding: 10px;
+    .logo {
+        width: 55%;
     }
 
     .paper {
-        width: 90%;
+        width: 60%;
         margin-top: 50px;
     }
-
-    .logo {
-        width: 75%;
-        display: flex;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .txtend {
-        text-align: end;
-        padding-right: 25px;
-    }
 }
-
-@media (min-width:1200px) and (max-width:1400px) {}
-
-@media (min-width:1400px) {}

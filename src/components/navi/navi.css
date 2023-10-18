@@ -21,7 +21,7 @@
     padding: 5px;
 }
 
-.shopBtn {
+.abtBtn {
     color: black;
     background-color: whitesmoke;
     border-color: black;
@@ -38,7 +38,17 @@
     background-color: transparent;
     border-color: transparent;
 }
-
+.dropIcon{
+    color: black;
+    margin-top: 5px;
+}
+.drop{
+    background-color: transparent;
+    border-color: transparent;
+}
+.offcanvas{
+background-color: #FFD64A;
+}
 
 @media (max-width: 576px) {
     #navi .img{
@@ -57,9 +67,12 @@
         padding: 1px;
     }
 
-    .shopBtn {
+    .abtBtn {
         padding: 1px;
         margin-left: 0px;
+    }
+    .dropIcon{
+        font-size: large !important;
     }
 }
 
@@ -77,9 +90,9 @@
         padding: 3px;
     }
 
-    .shopBtn {
+    .abtBtn {
         padding: 3px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 }
 
@@ -97,7 +110,7 @@
         padding: 5px;
     }
 
-    .shopBtn {
+    .abtBtn {
         padding: 5px;
         margin-left: 10px;
     }
@@ -110,6 +123,6 @@
     }
 }
 
-@media (min-width:1213px) and (max-width:1400px) {}
+@media (min-width:1213px) and (max-width:1440px) {}
 
-@media (min-width:1401px) {}
+@media (min-width:1441px) {}

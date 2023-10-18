@@ -34,14 +34,6 @@ export default function contact() {
               <p className='txt'>Mike@saintsalleyrecords.com</p>
               </Col>
             </Row>
-            <Row className='mb-5'>
-              <Col className='col-4 d-flex justify-content-end'>
-                <img src={box} className='icon icon1'/>
-              </Col>
-              <Col>
-              <p className='txt'>PO Box 691742, Stockton CA 95269</p>
-              </Col>
-            </Row>
             <Row>
               <Col className='col-4 d-flex justify-content-end'>
                 <img src={store} className='icon icon3'/>

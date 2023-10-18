@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function footer() {
   return (
     <div id='footer'>
-      <Container>
         <Row>
           <Col>
             <p className='elite'>2022 COPYRIGHT © SAINTS ALLEY RECORDS</p>
@@ -24,7 +23,6 @@ export default function footer() {
             </a>
           </Col>
         </Row>
-      </Container>
     </div>
   )
 }
